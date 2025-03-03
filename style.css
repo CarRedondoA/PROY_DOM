@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ccd87a;
+}
+
+header {
+  background-color: #93a134;
+  color: white;
+  padding: 10px0;
+  text-align: center;
+}
+header img{
+  height: 25px;
+
+}
+header h1 {
+  margin: 0;
+  text-shadow: 5px 8px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  margin-left: 35%;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.filtros {
+  width: 350px;
+  padding: 20px;
+  background-color: #93a134;
+  border-radius: 10px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.filtros h3 {
+  margin-bottom: 20px;
+}
+
+.filtros label {
+  display: block;
+  margin: 5px 0;
+}
+
+.filtros select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.product-list {
+  margin-left:25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  width: 95%;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 2px solid #515913;
+  width: 205px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.product-card:hover{
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  color: #52a39a;
+}
+
+.product-card .stars {
+  color: #ffd700;
+  margin: 5px 0;
+}
+
+footer {
+  background-color: #93a134;
+  display: flex;
+  flex-wrap: wrap;
+  padding:20px;
+  gap: 500px;
+  justify-content: center;
+  width: 100%;
+}
+a,ul {
+  list-style: none;
+  color: inherit; 
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Tienda de Camisetas y Ropa Deportiva</title>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h1><img src="./img/pelota-removebg-preview.png"> Retroactive.99 <img src="./img/pelota-removebg-preview.png"></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Cesta</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contenedor">
+        <!-- Aside lateral para filtros -->
+        <aside class="filtros">
+          <h3>Filtros</h3>
+          <form id="filtrosForm">
+            <label for="liga">Liga:</label>
+            <select id="liga" name="liga">
+              <option value="">Todas</option>
+              <option value="LaLiga">LaLiga</option>
+            </select>
+
+            <label for="año">Año:</label>
+            <select id="año" name="año">
+              <option value="">Todos</option>
+              <option value="2024">2024</option>
+            </select>
+
+            <label for="clase">Clase:</label>
+            <select id="clase" name="clase">
+              <option value="">Todas</option>
+              <option value="camiseta">Camiseta</option>
+              <option value="chandal">Chándal</option>
+              <option value="equipacion">Equipación</option>
+            </select>
+
+            <label for="equipo">Equipo:</label>
+            <select id="equipo" name="equipo">
+              <option value="">Todos</option>
+              <option value="Barça">FC Barcelona</option>
+              <option value="Madrid">Real Madrid</option>
+              <option value="Atleti">Atlético de Madrid</option>
+              <option value="Lega">Leganés</option>
+            </select>
+          </form>
+        </aside>
+
+        <!-- Contenedor de productos -->
+        <section>
+          <h2>Productos Destacados</h2>
+          <div class="product-list">
+            <!-- Los productos se insertarán aquí mediante JavaScript -->
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+  
+      <p>Gracias por su visita</p>
+      <ul>
+        <li>Contacto: 696696696</li>
+        <li><a href="https://www.instagram.com/retroactive.99/">Instagram</a></li>
+        <li><a href="https://x.com/home">X</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
